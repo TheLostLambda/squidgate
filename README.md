@@ -3,6 +3,8 @@
 This is currently a bash script that forwards a set of ports to a remote location using SSH.
 Eventually this will all be wrapped up in a nice Rust program with a TUI, but we aren't there just yet!
 
+This could also use Wireguard and iptables as a forwarding backend someday?
+
 # What Needs Doing?
 
 1) Ansible playbooks should be written to set up both the gateway server and computer to be forwarded.

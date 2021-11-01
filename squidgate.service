@@ -1,0 +1,8 @@
+[Unit]
+Description=Remotely Forward Ports On Boot
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/forward-ports.sh
+Restart=on-failure
+RestartSec=300
