@@ -6,3 +6,6 @@ Type=oneshot
 ExecStart=/usr/bin/forward-ports.sh
 Restart=on-failure
 RestartSec=300
+
+[Install]
+WantedBy=multi-user.target
